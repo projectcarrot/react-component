@@ -1,0 +1,54 @@
+body {
+  font-family: "Times New Roman", serif;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.form-box {
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 3px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+.options {
+  margin-top: 6px;
+}
+
+.options label {
+  display: block;
+  font-weight: normal;
+}
+
+select {
+  width: 100%;
+  margin-top: 4px;
+  padding: 3px;
+}
+
+hr {
+  margin: 16px 0;
+}
+
+.result p {
+  margin: 4px 0;
+}
+
+.result span {
+  color: darkred;
+  font-weight: bold;
+}
